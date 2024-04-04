@@ -1,7 +1,6 @@
 const btn = document.getElementById("btn-form");
 const btnRefresh = document.getElementById("btn-modal")
 
-
 let modal = document.getElementById("modal");
 
 btn.addEventListener("click", function(e){
