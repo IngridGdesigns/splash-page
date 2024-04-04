@@ -2,7 +2,7 @@
 
 Responsive splash-page, using media queries, flex box, box-sizing, viewpoint units and form styling
 
-Photo by (Jason Leung)[https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash]
+Photo by (https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)[Jason Leung]
 
 ### Desktop/laptop view:
 
