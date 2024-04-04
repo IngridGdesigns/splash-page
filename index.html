@@ -20,12 +20,21 @@
             
             <p>Learning Python, like any new skill, doesn't have to be a solitary journey. One of the most effective ways to learn Python is by actively using it. Join us as we party and build a project from scratch! Music and refreshments will be provided.</p>
             
-            <form>
+            <form id="py-form">
                 <input type="text" required placeholder="Name" aria-label="Name">
                 <input type="email" required  placeholder="Email" aria-label="Email">
                 <button class="btn btn-primary">Submit</button>
             </form>   
             <p class="fine-print">We'll never share your information without permission</p>
+        
+            <!-- modal-->
+            <section class="modal" id="modal">
+                <h2>Thanks for signing up!</h2>
+                <p>You will receive an email confirmation with further details!</p>
+                <btn id="btn-modal" class="btn btn-secondary">Refresh page</button>
+            </section>
+        
         </main>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
