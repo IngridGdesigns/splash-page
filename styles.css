@@ -156,6 +156,39 @@ input:focus {
 }
 
 /* =================
+    Modal
+   ================= */
+
+.btn-secondary {
+    color: #ffea00;
+    background-color: #016177;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover {
+    color: #016177;
+    background-color: #ffea00;
+}
+
+.modal {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    background-color: #ffea00;
+    color: darkcyan;
+    z-index: 1;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 8em 5em 25em 5em;
+    border-radius: 8px;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+/* =================
     Media queries 
    ================= */
 
@@ -188,5 +221,14 @@ input:focus {
     .main-content {
         justify-content: center;
         padding-top: 0;
+    }
+
+    .modal {
+        position: absolute;
+        left: 40%;
+        top: 30%;
+        margin-left: -150px;
+        margin-top: -150px;
+        padding: 8em 5em;
     }
 }
