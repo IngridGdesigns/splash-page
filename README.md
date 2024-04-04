@@ -2,6 +2,8 @@
 
 Responsive splash-page, using media queries, flex box, box-sizing, viewpoint units and form styling
 
+Photo by (Jason Leung)[https://unsplash.com/@ninjason?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash]
+
 ### Desktop/laptop view:
 
 <img src="https://github.com/IngridGdesigns/splash-page/blob/main/images/desktop.png">
