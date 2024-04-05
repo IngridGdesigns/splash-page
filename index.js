@@ -1,12 +1,12 @@
-const btn = document.getElementById("btn-form");
+// const btn = document.getElementById("btn-form");
 const btnRefresh = document.getElementById("btn-modal")
-
+const form = document.getElementById("py-form");
 let modal = document.getElementById("modal");
 
-btn.addEventListener("click", function(e){
+form.addEventListener("submit", function(e){
     e.preventDefault();
     modal.style.display = "flex";
-    document.getElementById("py-form").reset();
+    form.reset();
 })
 
 btnRefresh.addEventListener("click", function(){
